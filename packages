@@ -1,0 +1,16 @@
+Package: com.adtnim.majeed
+Version: 0.0.1
+Architect.0ure: iphoneos-arm
+Maintainer: majid
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/adtnim.deb
+Size: 16378
+MD5sum: 35f787597d062dbca6e6fc542c692810
+SHA1: 89B30E37BB1F44C3DCB0871105C830FC26BBE47C
+SHA256: a074aeba6bfc3785d371737174bb58e5ce2b9e27094858ade429d3bb66ced520
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: majid
+Depiction: https://majiidz.github.io/8x
+Name: adtnim
