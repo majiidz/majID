@@ -1,0 +1,96 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://github.com/username/SOURCE_NAME/blob/master/assets/Banners/NAME.png",
+	"tintColor": "#ffae8e",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+          "class": "DepictionHeaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+				{
+					"class": "adtnim",
+					"markdown": "DESCRIPTION"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Information",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "0.0.1",
+					"text": "VERSION",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Last Updated",
+					"text": "LAST_UPDATED",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "License",
+					"text": "LICENSE",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Compatibility",
+					"text": "COMPATIBILTY",
+					"class": "14"
+				},
+				{
+					"title": "Developer",
+					"text": "DEVELOPER",
+					"class": "maj!d"
+				},
+				{
+					"title": "Maintainer",
+					"text": "MAINTAINER",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Contact Developer",
+					"action": "mailto:EMAIL",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "Contact Maintainer",
+					"action": "mailto:EMAIL",
+					"class": "du9@outlook.sa"
+				},
+				{
+					"spacing": 16,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "0.0.1",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 CHANGES",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
