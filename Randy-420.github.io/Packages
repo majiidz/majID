@@ -1,0 +1,195 @@
+Package: com.randy420.aptfix
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 264
+Depends: mobilesubstrate, com.randy420.tools (>=2.1)
+Replaces: com.randy420.fixcydia
+Filename: ./debs/aptFix.deb
+Size: 8990
+MD5sum: 1d1bf51752b63b8dc838d24d5e1d367c
+SHA1: f28725e3c45042d5a4ae9f40a62ca18d40fab240
+SHA256: 854eeebfd15c594e45a09ddd92e2d70afd184d99df871939d71c1819c97acbd5
+Section: Utilities
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
+   
+  Clear these errors with one simple terminal command. 
+  Run'aptFix' in terminal or press the conveniently placed button in the preference bundle!
+Author: Randy420
+Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
+Name: aptFix
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Version: 2021.12
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 852
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/evanesco.deb
+Size: 111510
+MD5sum: 2b62890ee186447a8149214a1ae4ccaa
+SHA1: 3bafba6dabf860171aceab2e05cce0e8df2f7d10
+SHA256: 510af0ea87a442cf6b2be47803ba3b68d5bd4e1edb4af757f441ba257864c305
+Section: Tweaks
+Description: Evanesco, named after vanishing spell in hp, is a small modification which makes your ifone disappear after a defined time of inactivity. 
+ 
+ All settings configured from the SeTtInGs app
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
+Package: com.randy420.evanescocc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 180
+Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
+Filename: ./debs/evanescoCc.deb
+Size: 20130
+MD5sum: d61c800e6d0ca79ee4481833d67a82d2
+SHA1: 844e0b6f441a59b0e995ff478f3b3f1f6be2a0c5
+SHA256: 6319bd803c0392018118a5c1f9542e8141275656775f5ffe3bb1a8419e01c273
+Section: Control Center (Modules)
+Description: Control Center Modules for Evanesco
+Author: Randy420
+Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
+Name: evanescocc
+
+Package: com.randy420.tai
+Version: 5.1.8
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 460
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 2.1), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Conflicts: net.howett.theos, com.randy420.encrypt
+Replaces: com.randy420.encrypt
+Filename: ./debs/tai.deb
+Size: 39292
+MD5sum: ce26a9468177d15f114dcd8b8e0e5011
+SHA1: f57f15b401c7ea64c6335c0d9c17ee871dfc5e4b
+SHA256: 69d8335a9b842e2a8f59853e489b54b7f16bd35e9b5c1022323d48d87f92678e
+Section: System
+Tag: role::hacker
+Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
+  • tai 
+  
+  UNINSTALL THEOS 
+  • tai -u 
+  
+  REINSTALL THEOS 
+  • tai -r
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
+Package: com.randy420.tools
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2540
+Depends: ws.hbang.common
+Filename: ./debs/420Tools.deb
+Size: 804774
+MD5sum: 07ff9ce12dd7b6b58a495431de083436
+SHA1: 72506334bb7700c1983c8417fb284f688cd984e6
+SHA256: d189aaec4c4918ff31a3f9d18d723b8b9f492bf0ba9f40f883f8af6606e96711
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
+Package: com.volumestep.randy420
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 448
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/volumeStep.deb
+Size: 43774
+MD5sum: b1055ae1437900b42eceb7aeaf2a98ce
+SHA1: c3c37620514ab32499a436060ba4b58d5d8ea7ef
+SHA256: affed02a549d4ba07fbd7c36573fb28f31f5b771253a00a6dbcd77e38539f2c0
+Section: Tweaks
+Description: The side volume buttons change the volume by 6.25 percent per click by default.
+ VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
+ • includes CC Toggle
+ • add vibration response on volume key press
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
+Name: VolumeStep13/14
+
+Package: ru.rj.ftt
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 360
+Depends: mobilesubstrate, com.randy420.tools (>=2.1)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt.deb
+Size: 44380
+MD5sum: 5c859e5cfed36312f69629db0a42c8e7
+SHA1: 5e40584cdce6d86a5cd371b21c93eb7447175f4b
+SHA256: 3bd4c0129d96610a4baccc5971918dba65dc4886c1ad866d6b0823c485cc9059
+Section: Utilities
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
+ 
+ • Use 'ftt -?' For a full list of options. 
+ 
+ Flex 3 beta repo 
+ 
+ Original flex to theos coding I found - ipadkid358 GitHub https://GitHub.com/ipadkid358
+ 
+ DIFFERENCES BETWEEN FLEX TO THEOS FROM IPADKID358 AND MINE 
+ 
+ V0.3.8 - I fixed the following bugs that were present in ipadkid358's version of flex to theos, but I hadn't gotten around to fixing until now 
+ 
+ • Fixed a bug that would try to return %orig; on a void method 
+ 
+ • If the output folder already exists, it will change the number on the end instead of failing to convert the project from flex to theos 
+ 
+ • Ability to set FINALPACKAGE: && DEBUG: automatically when generating the makefile. 
+ 
+ • Added ability to convert ALL flex patches to theos code projects with one command (ftt -z) 
+ 
+ PAST FLEX TO THEOS UPDATES 
+ 
+ • Fix bug that would add an extra character between the return value, causing the project not to make properly 
+ 
+ • (bool) <- two characters Added the ability to make the deb straight from flex to theos terminal output (ftt -m) 
+ 
+ • I have ftt -g hooked to some of my personal flex patches 
+ 
+ • Added a preference bundle which allows the user to set custom arm support for their deb as well as customize the developers name / email and bundle name 
+ 
+ • Added the ability to add a description to your patch straight from the terminal while using ftt 
+ 
+ • Added ability to automatically name the folder after the flex patch you're making (ftt -a)
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: ru.rj.rr
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 336
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.randy420.rr
+Filename: ./debs/rr.deb
+Size: 31452
+MD5sum: c021adaaf7ab6de507e7c1949e7ae25b
+SHA1: 9bf46cca0bd9fd75e3bae31bff43cd0745bd87bb
+SHA256: afd043699d420ab70a2d68c4e086b588803456b0415b7ce01b6bfe8d7f8bc199
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: Remove Russian and or Turkish language project files from tweaks using terminal commands-
+ • rr
+ OR
+ • rr -a
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/rr.html
+Name: Remove Russian Language
