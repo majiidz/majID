@@ -15,22 +15,24 @@ Description: An awesome MobileSubstrate tweak!
 Name: adtnim
 Author: majed
 
-Package: Flex3beta
+Package: org.mr.snapper2
 Architecture: iphoneos-arm
-Version: 1:3~Beta98
+Version: 2.5.1
 Section: Tweaks
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Recommended: com.rpetrich.rocketbootstrap
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/flex3beta_1:3~Beta98_iphoneos-arm.deb
-Size: 14346600
-MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
-SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
-SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
-SHA512: f5f018b39833e4481c80594e15a2380ff73a42309bb9e50b344036cd18e3242c80dbacd557acec658ec60c2e066c966c33e2210118823b05f9247608d286890c
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Name: Flex 3 Beta
-Author: John Coates
+Maintainer: MainRepo
+Installed-Size: 1744
+Depends: mobilesubstrate, firmware(>=12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debs/org.mr.snapper2_2.5.1_iphoneos-arm.deb
+Size: 560334
+MD5sum: 26ca23a4fd423e1aae93613b7cb643fc
+SHA1: f6a1e86f0b2087d9cc98c83c8758a0187c2c4e4d
+SHA256: e72f480afcf3407a740883689af303198c34e7139bdbb516b2c59c42323ad86d
+SHA512: 812881dee2969c3b534ceb8642338f7eed93f256ed6081c0e7f381edc4f5240c88e3c47305a831b0872ab348af301cfc384131db52652b171a6fd7ac52ef88e8
+Description: Pin screenshots on the screen.
+Name: Snapper 2
+Author: Jonathan Winger-lang
+Depiction: https://mainrepo.org/package/2368
+SileoDepiction: https://mainrepo.org/sileo/2368
+Icon: https://repo.packix.com/api/Packages/5cb75a7dfc3038001a2fc9fd/icon/download?size=medium
 
