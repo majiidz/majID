@@ -1,3 +1,21 @@
+Package: com.ipadkid.ftt
+Architecture: iphoneos-arm
+Version: 0.3.5
+Section: Utilities
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 576
+Depends: mobilesubstrate, com.randy420.tools
+Filename: ./debs/FlexToCode.deb
+Size: 40212
+MD5sum: b47afc103ce5e585ee698f6cc2687831
+SHA1: eb23055e7bcbf508357c97053ddcb5c200d3f42d
+SHA256: 89f8327a2c8e16fb3e5b9107e16cc83ca8fbc391465847419e3712b5b75a10da
+SHA512: 7139795b35d5608dd0f3d953efab7d42295d30fe54e8bf65509c6fcde44c654f021442ae250dd1b35fcc126aae1b37d7c6752aae5f21833af5710d0dddbeba54
+Homepage: https://theemeraldisle.family
+Description: First made by iPad_kid - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. Use 'ftt -?' For a full list of options.    Flex 3 beta repo - http://getdelta.co     Original flex to theos coding I found :https://github.com/ipadkid358/FlexToTheos/find/master?q=
+Name: Flex To Theos
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+
 Package: com.adtnim.majeed
 Architecture: iphoneos-arm
 Version: 0.0.1-7+debug
