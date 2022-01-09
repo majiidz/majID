@@ -15,24 +15,3 @@ Description: +تدعم 14 😎
 Name: adtnim
 Author: majed
 
-Package: org.mr.snapper2
-Architecture: iphoneos-arm
-Version: 2.5.1
-Section: Tweaks
-Maintainer: MainRepo
-Installed-Size: 1744
-Depends: mobilesubstrate, firmware(>=12.1)
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2
-Filename: ./debs/org.mr.snapper2_2.5.1_iphoneos-arm.deb
-Size: 674056
-MD5sum: 03e772c524310c340940a9f53ec87994
-SHA1: 209e3c1f43def957e5ed06dfb63ed434e451e157
-SHA256: 4ff7a4aea1b2cce4dee0a9dfe1c4a84c4bfc6bc43fa1104e700946016ddd93a8
-SHA512: 844f9fdeb1e68d41a8cdf3e916ab2664fa26f45e208a25712e57d811d5d7f43a253b32b31676af0954bc05a6ad7a541fcc218d87c30bbccf28849fff56e7ac03
-Description: Pin screenshots on the screen.
-Name: Snapper 2
-Author:
-Depiction: https://mainrepo.org/package/2368
-SileoDepiction: https://mainrepo.org/sileo/2368
-Icon: https://repo.packix.com/api/Packages/5cb75a7dfc3038001a2fc9fd/icon/download?size=medium
-
