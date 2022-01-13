@@ -1,17 +1,17 @@
 Package: com.adtnim.majeed
 Architecture: iphoneos-arm
-Version: 0.0.1-12+debug
+Version: 0.0.1-7+debug
 Section: Tweaks
 Maintainer: majed
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.adtnim.majeed_0.0.1-23+debug_iphoneos-arm.deb
-Size: 16378
-MD5sum: 35f787597d062dbca6e6fc542c692810
-SHA1: 89b30e37bb1f44c3dcb0871105c830fc26bbe47c
-SHA256: a074aeba6bfc3785d371737174bb58e5ce2b9e27094858ade429d3bb66ced520
-SHA512: d42e199eceac53e7835c502ee1a24ef2f8d38babe23abc56dd07d4fbfd8bba5e0cf9075d8ad820e149c8d8c3dd8893d55023b06a5458d97a333f5ea216447eb4
-Description: An awesome MobileSubstrate tweak!
+Filename: ./debs/com.adtnim.majeed_0.0.1-7+debug_iphoneos-arm.deb
+Size: 24970
+MD5sum: c2d66d905f69bab4772f176a55ba5860
+SHA1: 433dab7c4283ec84077ebf271e1376a30a0a7db3
+SHA256: a68127483a92c849579444873f91682d9443df0f58741b9c2ce81ea1f936e824
+SHA512: 5924b9dca2ee639e886ae776c8f7cef2137893b41bf6e6ea758eb859b13440d7512e86e1dff213bd09e30802d739675f63c3d13fff3877051b60a33d4e331fc5
+Description: Support 14+
 Name: adtnim
 Author: majed
 
