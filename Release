@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Origin: majID 
 Label: repo
@@ -6,3 +7,5 @@ Version: 1.0
 Architectures: iphoneos-arm
 Components: main
 Description: repo
+=======
+>>>>>>> 771889d98c6a5057583e16e5c572bcdaefebec38
