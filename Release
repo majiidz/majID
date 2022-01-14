@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
@@ -43,3 +44,22 @@ SHA512:
  2e73927d8e51cb557499fbe6f484f2d3686f6067664592a960f1213be84965937902fc1a3d2346bce56d0d294cccf995a247bf52b55321da9d7becdcf379bdfc              213 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 sileodepictions/js/Packages
  6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 sileodepictions/js/Packages.bz2
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2fb7a0e3f81897fbf6374847ad8e4a2c32a442bb
+
+Origin: majID 
+Label: repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: repo
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 771889d98c6a5057583e16e5c572bcdaefebec38
+>>>>>>> 2fb7a0e3f81897fbf6374847ad8e4a2c32a442bb
+>>>>>>> 4dafd9fdc01dfdb2ec227477655cc3a02e9e43f3
