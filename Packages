@@ -15,3 +15,20 @@ Description: Support 14+
 Name: adtnim
 Author: majed
 
+Package: com.spark.laetus
+Architecture: iphoneos-arm
+Version: 3.3.1
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/com.spark.laetus_3.3.1_iphoneos-arm.deb
+Size: 991438
+MD5sum: fbd7b765a633278d4d3871baa72b433b
+SHA1: 6647b4d0e3b70d63eda06f79be57acef007c9083
+SHA256: 78e5ad4b4030c782de2e9f6e61a20f76be7bd648af88f7240c99c591345de74b
+SHA512: ed3c07db5ff721af31643e6a48b91a3e649cc77d829b7c4d1e5ab4bc6d44ab2624fc3eb9d04d0d818842d1ccc055dcce71c4cb6155fa994636b0f2e479455f1e
+Description: تم التعاريب اداة Laetus
+Name: Laetus
+Author: Spark
+
