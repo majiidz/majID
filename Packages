@@ -15,3 +15,18 @@ Description: An awesome MobileSubstrate tweak!
 Name: adtnim
 Author: majed
 
+Package: com.check0ver.AubeiOS11
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Themes
+Maintainer: UAE_AD1001
+Depends: com.check0ver.icone (>=1.8)
+Filename: ./debs/com.check0ver.aubeios11_1.2_iphoneos-arm.deb
+Size: 33744606
+MD5sum: b3c467f9234c957b37e2bf7989229325
+SHA1: 10771ddaeae6844a294418186875d919c2c888ed
+SHA256: 1e26379094615b5a71e3373a3a85a4a510a3eba8eecb49431fef1a787682b9fa
+SHA512: 7d8cb2c688d51a6e42ef601b3606652b00421f2cd14612a25814433bb32054d7ec9d567db3162f29c06966bb18d86d63bbe3889e13c65be5363973cc8770b5b7
+Name: Aube iOS11
+Author: @UAE_AD1001
+
