@@ -1,54 +1,18 @@
-#!/bin/bash
-start=$(date +%s)
+###
+## Automate building latest demo and supporter packages and packing for repos
+###
 
-commitFile='update.txt'
-debName="volumeStep"
+#dpkg-scanpackages debs /dev/null >Packages
+#cd ./debs
+#../gen.sh > ../Release
+#cd ../
 
-. ./version.sh
-error=$?
-if [[ $error -ne 0 ]]; then
-	echo "-STOPPED- with exit code: $error"
-	exit
-fi
+#rm -rf Packages.bz2
 
-rm -rf DEBs/*
+#bzip2 -fks Packages
 
-make clean package
-
-cp DEBs/* /var/mobile/tweaks/mine/repo/debs/$debName.deb
+./gen.sh
 
 git add .
-if test -f "$commitFile"; then
-	while read line; do  
-		if [[ $commitMsg == "" ]]; then
-			commitMsg="${line}"
-		else  
-			commitMsg="$commitMsg
-$line"
-		fi 
-	done < $commitFile
-fi
-while [[ $commitMsg == "" ]];
-do
-	if [[ $commitMsg == "" ]]; then
-		echo "Enter your commit message: "
-		while read tmsg; do
-			if [[ $tmsg == "" ]]; then
-				break
-			fi
-			if [[ "$commitMsg" == "" ]]; then
-				commitMsg="$tmsg"
-			else
-				commitMsg="$commitMsg
-$tmsg"
-			fi
-		done
-	fi
-done
-echo "" > $commitFile
-git commit -m "$commitMsg"
+git commit -m "."
 git push
-
-end=$(date +%s)
-time=$(expr $end - $start)
-echo "completed in $time seconds"
