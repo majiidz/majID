@@ -1,3 +1,20 @@
+Package: my
+Architecture: iphoneos-arm
+Version: 1.0.0.14360
+Section: Tweaks
+Maintainer: shaib
+Installed-Size: 608
+Depends: mobilesubstrate
+Filename: ./debs/HACK PUBG GL .deb
+Size: 357122
+MD5sum: 12af6ce06d9cbd696cc242acdabd28ea
+SHA1: 443334d78c2f369c1aec1672adc7205ea0cdb214
+SHA256: 59db66e3b267cb053d45e27764a2dd7f36846b8b07fe9f6a660310673543b447
+SHA512: 8908c1b85b1b3a2cc1f364fa3c1075b9c127c416726fbb78c7305bc7a45217eec6a450ae3ebd73d3f9dd2a0f4686986f9702fec9da9b8eb6468f6788a1f40578
+Description: hackem Mod Menu by shaib!
+Name: مود منيو شايب
+Author: shaib
+
 Package: com.adtnim.majeed
 Architecture: iphoneos-arm
 Version: 0.0.1-12+debug
