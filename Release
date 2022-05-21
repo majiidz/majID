@@ -1,45 +1,45 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sat, 21 May 2022 21:39:53 +0000
+Date: Sat, 21 May 2022 21:43:34 +0000
 Description: Majiid's GitHub Repo
 Label: Majiid's GitHub Repo
 Origin: Majiids's Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- 53715cd42789088e3cdc517bf7888f44             1193 Packages
- 8dc3466354e7bae9a10839a8fa6c68ab              784 Packages.bz2
- d29b688ceafdb74d4ac0fdacc822ef64              728 Packages.gz
- 3f3641e9769c18cf08b306aef551c2c9              760 Packages.xz
+ 4c6eb88ff5e6f5b3dadf613d25579cc6              627 Packages
+ 97556fc5def2137d590f7dd8f739acdb              469 Packages.bz2
+ ea6ff4da9c75faf60dd4aa2520c883e7              451 Packages.gz
+ a8ece96e600201bbfdc59d0469349068              516 Packages.xz
  d41d8cd98f00b204e9800998ecf8427e                0 Packages.zst
- d79cc3666028772bb695e229e1de9ccd              209 Release
+ d8282f6bdd0d966ebf8e504ae05e8d16              209 Release
  d41d8cd98f00b204e9800998ecf8427e                0 sileodepictions/js/Packages
  4059d198768f9f8dc9372dc1c54bc3c3               14 sileodepictions/js/Packages.bz2
 SHA1:
- 3f219e784e336021a6d50ec6f8ac66cc2a87dac5             1193 Packages
- 5cde3517b4c25f6bf80b75e5af775d763d746aef              784 Packages.bz2
- 78fc9f235495024a1ebc8201a129d2b70209ae88              728 Packages.gz
- 072f79b696e91e55b710da408ccc326f28694827              760 Packages.xz
+ dbef3844317c04e66c69591416d42965db180c73              627 Packages
+ cc1255b788b28a5425eb7bc9ddaa4edbc1622f9a              469 Packages.bz2
+ ac68774b45b9ec3de6f5468ee9f7cbabec998094              451 Packages.gz
+ 3cbbe93fab7527dbfafc39ea3b335c188bd39548              516 Packages.xz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages.zst
- b399b2b38561162a00f55a17e7f78b0cddd9d254              209 Release
+ da4e8421d064428cab53a7c908b6ee5565512a38              209 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 sileodepictions/js/Packages
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 sileodepictions/js/Packages.bz2
 SHA256:
- afd02dbff1820af90025ff95cbe541463ede208710eef9953cfd4a661c37b2af             1193 Packages
- 2229dfc532e1542f353e0b5f992dd2b4c1bf5ee8d439f93fc5904abd46341b4c              784 Packages.bz2
- 858ef61168b4a6dfc0ac1177ed9b40bfad2a6ad03b8640fb7920c0e71e4af847              728 Packages.gz
- 0c371140cf42f1207244e5fff83a4834521fa07c6156fd2897e8419a1e6c14ae              760 Packages.xz
+ 4b532386e85af60fd1b440e1516d65e1a789dc1e93fb80953783aa9b8679667b              627 Packages
+ fbe4d0761685751bd6f7d8370efcfd7e8e1e93c4c5f2e2fa628ac57e436d4248              469 Packages.bz2
+ 7afe2d20da1344c978fc9139881ba800f5c0080d9ca312757eac6aef853d2490              451 Packages.gz
+ 98d750b8d5380d960ac6a6b3b7ec4433f961a5913b85eed5be525cd177717642              516 Packages.xz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages.zst
- 2319960866c1b3e156e035b3f16a420d44d0ff505d695ace1e4df0ade65260d1              209 Release
+ e7cbd7e02555ecc6002fea6311c017bef21d09ca56ef5ebecb3917207a4ed84c              209 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 sileodepictions/js/Packages
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 sileodepictions/js/Packages.bz2
 SHA512:
- 3940ed225a931bd8058fba84a868f7ce296283146a41ad45ad7fcb90b11ac1fda2650bb539ad79f055d2716d3bd2692eafe922d8e730001dfa7ef8cb538bb95f             1193 Packages
- d15482934fc314c2157ea699a6d5ee6f9a9a3050fcfc22ced209e11e233d00134d13a38b38c264b1b0480bd03b4d9e8948d412fd93a93cf329d21a060f64b3c4              784 Packages.bz2
- 8eef05213e5a0be612d4360a0d9077073f058058747b52a8de2042a0212bdc097381eda563f6e0b5f840c51d78c3292704a0807e9669e1718e95d46d4236a6ff              728 Packages.gz
- 76a28b0338263fb5ccee51d7a5ce1130344bd924506b01f9222d67dda01a75ba3673c3d7df345cf738e574c7412c5bdf528817a7cd20af4815514984f6af50d1              760 Packages.xz
+ 189063a94914fc007afe7e4fd1ef9c45115382df1117651158a887c8c62e45ea69a4e6c752dca1728bcf0447b4e668a5bdbcfd67c31e1415dee2aba92cfa0e07              627 Packages
+ d0ed800db38944b66ff3d1548d1193f8a32bda41c13942f13a1e4d04921ec59e6dabb57af2cb80188b56851c4f56788ba06139b0db37127a52730d47fa877f0d              469 Packages.bz2
+ 44263277aba74748da736c31b65655b03275e0e7b0a3a3352bad654fb2480bfec10847f8a81a1e80df63e39f2842bc7ad1fa5e4e81f47325eee67a8ece9d46ca              451 Packages.gz
+ 64820bb952f9b9903b520eafbb14214d1489725bdcea8ed7d7b63c3a83e0efa85d59b0063f1a77776e05fd47b35f1c8c2a6cbe265d88fd1df9eaf84b5b2030f6              516 Packages.xz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Packages.zst
- 9330de5372da67cdad9c0aa8c9a30878ccf6c3993a69a9f55bb45441d4c476b04ae9ccee86283b90f7f2c8a675b3d483b250b994c18b97be1b51bef8ca71e6a3              209 Release
+ 07c20dfb81ce02770690635b4264bcb5c81f1dbf496b1ed39ea89c1fcad41d0456373a0dccd51d43ec1471d1bf9a170aca34dc5e0ff08f5366baf33d8f829b23              209 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 sileodepictions/js/Packages
  6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 sileodepictions/js/Packages.bz2

@@ -1,20 +1,3 @@
-Package: my
-Architecture: iphoneos-arm
-Version: 1.0.0.14360
-Section: Tweaks
-Maintainer: shaib
-Installed-Size: 608
-Depends: mobilesubstrate
-Filename: ./debs/HACK PUBG GL .deb
-Size: 357122
-MD5sum: 12af6ce06d9cbd696cc242acdabd28ea
-SHA1: 443334d78c2f369c1aec1672adc7205ea0cdb214
-SHA256: 59db66e3b267cb053d45e27764a2dd7f36846b8b07fe9f6a660310673543b447
-SHA512: 8908c1b85b1b3a2cc1f364fa3c1075b9c127c416726fbb78c7305bc7a45217eec6a450ae3ebd73d3f9dd2a0f4686986f9702fec9da9b8eb6468f6788a1f40578
-Description: hackem Mod Menu by shaib!
-Name: مود منيو شايب
-Author: shaib
-
 Package: com.adtnim.majeed
 Architecture: iphoneos-arm
 Version: 0.0.1-12+debug
@@ -22,13 +5,13 @@ Section: Tweaks
 Maintainer: majed
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.adtnim.majeed_0.0.1-23+debug_iphoneos-arm.deb
-Size: 16378
-MD5sum: 35f787597d062dbca6e6fc542c692810
-SHA1: 89b30e37bb1f44c3dcb0871105c830fc26bbe47c
-SHA256: a074aeba6bfc3785d371737174bb58e5ce2b9e27094858ade429d3bb66ced520
-SHA512: d42e199eceac53e7835c502ee1a24ef2f8d38babe23abc56dd07d4fbfd8bba5e0cf9075d8ad820e149c8d8c3dd8893d55023b06a5458d97a333f5ea216447eb4
-Description: An awesome MobileSubstrate tweak!
+Filename: ./debs/com.adtnim.majeed_0.0.1-12+debug_iphoneos-arm.deb
+Size: 25618
+MD5sum: 195e770bf4d37e7b7c2332211d85c5a8
+SHA1: fc9fa77e05e68298d21c28e147a365444651cde5
+SHA256: b7f2720e3e597ed32a5a68b40b32056f8b95afe356dd1221fa3355bf2e86a4c7
+SHA512: 970d5de163f8bebe00649010b8f2c5c175fb76e776a93e5dfbcf71b889f070017505b8f3f0434f13354df69d9f712e3b60e8873e135b0beabce7e50893a9f55a
+Description: Welcome message to the main interface
 Name: adtnim
 Author: majed
 
