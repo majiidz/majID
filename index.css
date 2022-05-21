@@ -6,8 +6,12 @@ h4{
     color: rgb(255, 255, 255);
         1em sans-serif;
         color: red
-        
 }
+
+
+
+
+
 div{
     color: rgb(255, 255, 255);
     
@@ -58,7 +62,7 @@ height: calc(100% + 27px);
     top: 0;
     left: 0;
     object-fit: cover;
-    
+   color: #696969; 
 }
     
     .title{
