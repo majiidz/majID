@@ -2,16 +2,16 @@ Package: com.adtnim.majeed
 Architecture: iphoneos-arm
 Version: 0.0.1-12+debug
 Section: Tweaks
-Maintainer: majed
+Maintainer: majed <du9@outlook.sa>
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.adtnim.majeed_0.0.1-12+debug_iphoneos-arm.deb
-Size: 25618
-MD5sum: 195e770bf4d37e7b7c2332211d85c5a8
-SHA1: fc9fa77e05e68298d21c28e147a365444651cde5
-SHA256: b7f2720e3e597ed32a5a68b40b32056f8b95afe356dd1221fa3355bf2e86a4c7
-SHA512: 970d5de163f8bebe00649010b8f2c5c175fb76e776a93e5dfbcf71b889f070017505b8f3f0434f13354df69d9f712e3b60e8873e135b0beabce7e50893a9f55a
-Description: Welcome message to the main interface
+Size: 25632
+MD5sum: fa1d7503625c30a3d4d07879026743ee
+SHA1: 9a27ee01e2d3ace6043cfaaa264a4b26f5b77624
+SHA256: d77da3b2a0d04d0ace4f476d3b3f73d5e6a0b54d4b51f6d956a085da15a59367
+SHA512: b59640b66220f366b3e78106f9eb184b4f1fd8195b5ea09871d4b841bda250e2042bbc057bed619e3189180505a7ea761d74790e7ee993a78aa7d06f03ded1b1
+Description: welcome message to the main interface
 Name: adtnim
-Author: majed
+Author: majed <du9@outlook.sa>
 
