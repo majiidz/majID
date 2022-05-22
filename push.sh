@@ -1,49 +1,37 @@
 #!/bin/bash
 start=$(date +%s)
 
+IFS="\n"
 commitFile='update.txt'
-debName="volumeStep"
 
-. ./version.sh
-error=$?
-if [[ $error -ne 0 ]]; then
-	echo "-STOPPED- with exit code: $error"
-	exit
-fi
-
-rm -rf DEBs/*
-
-make clean package
-
-cp DEBs/* /var/mobile/tweaks/mine/repo/debs/$debName.deb
+. ./gen.sh
 
 git add .
+
 if test -f "$commitFile"; then
-	while read line; do  
+	for line in $(<$commitFile); do
 		if [[ $commitMsg == "" ]]; then
 			commitMsg="${line}"
 		else  
 			commitMsg="$commitMsg
 $line"
 		fi 
-	done < $commitFile
+	done
 fi
 while [[ $commitMsg == "" ]];
 do
-	if [[ $commitMsg == "" ]]; then
-		echo "Enter your commit message: "
-		while read tmsg; do
-			if [[ $tmsg == "" ]]; then
-				break
-			fi
-			if [[ "$commitMsg" == "" ]]; then
-				commitMsg="$tmsg"
-			else
-				commitMsg="$commitMsg
+	echo "Enter your commit message: "
+	while read tmsg; do
+		if [[ $tmsg == "" ]]; then
+			break
+		fi
+		if [[ "$commitMsg" == "" ]]; then
+			commitMsg="$tmsg"
+		else
+			commitMsg="$commitMsg
 $tmsg"
-			fi
-		done
-	fi
+		fi
+	done
 done
 echo "" > $commitFile
 git commit -m "$commitMsg"

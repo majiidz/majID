@@ -1,0 +1,11 @@
+Copy these files to your main repo folder directory in Filza
+
+Open terminal as root and enter the following commands
+
+cd /to/your/repo/folder
+. ./push.sh
+
+Then follow the on screen prompts
+
+
+If you have writing inside "update.txt" - it will be used as your commit msg on GitHub.
