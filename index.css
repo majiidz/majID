@@ -63,6 +63,7 @@ height: calc(100% + 27px);
     left: 0;
     object-fit: cover;
    color: #696969; 
+background-position: 10px 12px;
 }
     
     .title{
