@@ -2,16 +2,16 @@ Package: com.adtnim.majeed
 Architecture: iphoneos-arm
 Version: 0.0.1-20+debug
 Section: Tweaks
-Maintainer: majed
+Maintainer: majed <du9@outlook.sa>
 Installed-Size: 528
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.adtnim.majeed_0.0.1-20+debug_iphoneos-arm.deb
-Size: 53598
-MD5sum: ae9e85e0bcdd71b3f4abd49f582ffe4c
-SHA1: 50fd0ce78f44fe8e0377d185d6d65a7d7393bf02
-SHA256: ca2d5e2312aab529ad4b3b774ec3765559a760c6114b9979542e80bd348d8e40
-SHA512: 27df0569a01b1f0ed628cff186aa4eb55263b7c011a5b8a1491f0a5889238191d90f298897f87e1a4a83c0f23f92c964998f7b4f4f81ad0af0dcdde456779768
-Description: An awesome MobileSubstrate tweak!
+Size: 63906
+MD5sum: b46de612556ad927332b9008bc445599
+SHA1: ac8e3a2432fb42a96ec23a96b3637965e7666fb1
+SHA256: c55dc38eb65b3cf30a34a70224954b29a1b18ded026605762cf9b33edddf710d
+SHA512: 76703a9a65ee89f3dfbd46bb6fd19b574e6eed3d559bd5c96d2a8d7ae1ec5f41ad16b5d9c7a067f9ab3d14d8d2e9d7a305e6d4ac5ba59e63dd2df58148a22858
+Description: Add a welcome message when the device is restarted
 Name: adtnim
-Author: majed
+Author: majed <du9@outlook.sa>
 
