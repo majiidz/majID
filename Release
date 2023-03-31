@@ -1,9 +1,9 @@
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
 Date: Fri, 07 Oct 2022 02:33:28 +0000
 Description: Majiid GitHub Repo
-Label: Majiid's GitHub Repo
+Label: Majid's Repo
 Origin: Majiid's Repo
 Suite: stable
 Version: 1.0
